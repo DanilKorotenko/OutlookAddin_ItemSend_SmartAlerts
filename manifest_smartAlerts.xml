@@ -44,10 +44,18 @@
     <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.1" xsi:type="VersionOverridesV1_1">
         <Hosts>
             <Host xsi:type="MailHost">
+                <Runtimes>
+                    <Runtime resid="indexUrl">
+                        <Override type="javascript" resid="runtimeUrl"/>
+                    </Runtime>
+                </Runtimes>
                 <DesktopFormFactor>
                     <FunctionFile resid="indexHtmlUrl" />
-                    <ExtensionPoint xsi:type="Events">
-                        <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="validateMessage" />
+                    <ExtensionPoint xsi:type="LaunchEvent">
+                        <LaunchEvents>
+                            <LaunchEvent Type="OnMessageSend" FunctionName="validateMessage" SendMode="SoftBlock" />
+                        </LaunchEvents>
+                        <SourceLocation resid="indexHtmlUrl"/>
                     </ExtensionPoint>
                     <ExtensionPoint xsi:type="MessageReadCommandSurface">
                         <OfficeTab id="TabDefault">
@@ -105,6 +113,7 @@
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="indexHtmlUrl" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/index.html" ></bt:Url>
+                <bt:Url id="runtimeUrl" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/index.js" ></bt:Url>
             </bt:Urls>
             <bt:ShortStrings>
                 <bt:String id="GroupLabel" DefaultValue="Outlook Add-in"/>
