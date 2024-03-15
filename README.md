@@ -7,3 +7,7 @@ What is working and what is not.
 |Mac Outlook Application| Working. Possible to install. <p> Panel is visible.||||
 |     2|     ||||
 |     3|        ||||
+
+#### Link to install addin for outlook.com
+
+https://aka.ms/olksideload
