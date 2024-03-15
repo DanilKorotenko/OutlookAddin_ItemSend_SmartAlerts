@@ -7,7 +7,7 @@
     xsi:type="MailApp">
 
     <Id>36FD4DD0-050E-434D-96D6-6F8A82E3CBE9</Id>
-    <Version>1</Version>
+    <Version>1.0</Version>
     <ProviderName>ACME</ProviderName>
     <DefaultLocale>en-us</DefaultLocale>
     <DisplayName DefaultValue="Outlook Addin" />
