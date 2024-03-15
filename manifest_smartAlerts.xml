@@ -45,7 +45,7 @@
         <Hosts>
             <Host xsi:type="MailHost">
                 <Runtimes>
-                    <Runtime resid="indexUrl">
+                    <Runtime resid="indexHtmlUrl">
                         <Override type="javascript" resid="runtimeUrl"/>
                     </Runtime>
                 </Runtimes>
