@@ -1,13 +1,5 @@
 # OutlookAddin_ItemSend_SmartAlerts
 
-What is working and what is not.
-
-|      | ItemSend Manifest <p> install by hands | ItemSend Manifest <p> install via admin panel | SmartAlerts Manifest <p> install by hands | SmartAlerts Manifest <p> install via admin panel
-|-----:|-----------|---|-|-|
-|Mac Outlook Application <p> Version 16.83 (24031120)| Working. Possible to install. <p> Panel is visible.||Installation success. Panle invisible. Not working.||
-|https://outlook.office365.com/|Possible to install. Panel is invisible. Not Working.||After installing in mac app. impossible to uninstall. Not working||
-|     3|        ||||
-
 #### Link to install addin for outlook.com
 
 https://aka.ms/olksideload
