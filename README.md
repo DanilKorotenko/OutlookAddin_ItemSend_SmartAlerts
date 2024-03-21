@@ -1,17 +1,32 @@
 # OutlookAddin_ItemSend_SmartAlerts
 
-#### Link to install addin for outlook.com
+### Description
 
-https://aka.ms/olksideload
+SmartAlerts manifest doesn't work in Mac New Outlook.
 
-#### steps to reproduce
+### Hardware & Software
 
-1. Install manifest
-2. Choose any message in inbox.
-3. Create and send message
+MacBook Air M1 2020
+OS: macOs 14.2.1
+
+Outlook: 
+Microsoft® Outlook for Mac
+Version 16.83.1 (24031813)
+
+
+### Steps to reproduce
+
+1. Open Mac New Outlook app.
+2. Go to "Get Add-ins" -> "My Add-ins"
+3. Install "manifest_smartAlerts.xml" from file.
+4. Close window.
+5. Select any message in inbox.
+6. Try to find addin icon on toolbar.
+7. Start composing new message.
+8. Try to find addin icon on toolbar in composing mode.
+9. Send message to any address.
 
 Expected result:
-1. Installation success
-2. In reading, addin button is visible. User can see addin panel.
-3. In composing message, addin button is visible. User can see addin panel.
-4. Addin blocks message send.
+1. On step 6, addin icon should be present on toolbar.
+2. On step 8, addin icon should be present on toolbar.
+3. On step 9, addin should block message.
