@@ -13,8 +13,8 @@
     <DisplayName DefaultValue="Outlook Addin" />
     <Description DefaultValue="Outlook Addin" />
 
-    <IconUrl DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample.png"/>
-    <HighResolutionIconUrl DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample.png"/>
+    <IconUrl DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample_32x32.png"/>
+    <HighResolutionIconUrl DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample_64x64.png"/>
     <SupportUrl DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts"/>
 
     <Hosts>
@@ -107,9 +107,9 @@
         </Hosts>
         <Resources>
             <bt:Images>
-                <bt:Image id="Icon.16x16" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample.png"/>
-                <bt:Image id="Icon.32x32" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample.png"/>
-                <bt:Image id="Icon.80x80" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample.png"/>
+                <bt:Image id="Icon.16x16" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample_16x16.png"/>
+                <bt:Image id="Icon.32x32" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample_32x32.png"/>
+                <bt:Image id="Icon.80x80" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/sample_80x80.png"/>
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="indexHtmlUrl" DefaultValue="https://danilkorotenko.github.io/OutlookAddin_ItemSend_SmartAlerts/index.html" ></bt:Url>
