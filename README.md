@@ -1,5 +1,8 @@
 # OutlookAddin_ItemSend_SmartAlerts
 
+### Update
+It works now. Added manifest_smartAlerts_working.xml manifest.
+
 ### Description
 
 SmartAlerts manifest doesn't work in Mac New Outlook.
